@@ -1,0 +1,14 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "app-default.ts"],
+  "exclude": ["src/exclude/"]
+
+  // "allowImportingTsExtensions": true
+}
